@@ -1,4 +1,4 @@
-# MedicalBot
+# Medical RAG Q&A
 MedicalBot is an AI-powered chatbot designed to assist with medical inquiries by retrieving relevant information from a vast collection of medical texts. It utilizes retrieval-augmented generation (RAG) to enhance response accuracy.
 
 ## Features
