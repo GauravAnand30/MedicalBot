@@ -34,7 +34,7 @@ MedicalBot is an AI-powered chatbot designed to assist with medical inquiries by
 - **LLM:** OpenAI API
 
 ## Screenshots
-![]
+![](https://github.com/GauravAnand30/MedicalBot/blob/main/screen%20shot/Screenshot%202025-02-24%20004028.png)
 ![]
 
 
