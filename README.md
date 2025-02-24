@@ -1,29 +1,4 @@
 # Medical RAG Q&A
-MedicalBot is an AI-powered chatbot designed to assist with medical inquiries by retrieving relevant information from a vast collection of medical texts. It utilizes retrieval-augmented generation (RAG) to enhance response accuracy.
-
-## Features
-- **Medical Document Parsing:** Extracts structured data from medical PDFs using PyPDF.
-
-- **Text Chunking:** Splits documents into smaller, meaningful chunks for better retrieval accuracy.
-
-- **Embedding Generation:** Converts text chunks into numerical embeddings using sentence-transformers from Hugging Face.
-
-- **Vector Database (Pinecone on AWS):** Stores embeddings in Pinecone for efficient similarity searches.
-
-- **Query Processing:** Uses cosine similarity to match user queries with relevant document chunks.
-
-- **Context Retrieval:** Fetches the most relevant text chunks based on query relevance.
-
-- **LLM Response Generation (OpenAI API):** Generates responses using OpenAI’s model with retrieved context.
-
-- **Interactive UI:** Built with FastAPI and designed using HTML, CSS, and Bootstrap for a smooth user experience.
-
-- **Deployment:** Runs locally for development with embeddings stored on AWS Pinecone.
-
-- **User Interaction:** Handles user queries, retrieves relevant data, and displays responses dynamically.
-
-
-# Medical RAG Q&A
 
 MedicalBot is an AI-powered chatbot designed to assist with medical inquiries by retrieving relevant information from a vast collection of medical texts. It utilizes **Retrieval-Augmented Generation (RAG)** to enhance response accuracy, ensuring users receive precise and contextually relevant medical information.
 
